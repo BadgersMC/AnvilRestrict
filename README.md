@@ -35,6 +35,7 @@ messages:
     - "&6/anvilrestrict reload &f- Reload config"
     - "&cAliases: &7[ar, anvilr]"
   invalid_characters: "&cYou can only use English letters and numbers in the anvil."
+```
 Commands
 /anvilrestrict reload - Reloads the configuration.
 Aliases: /ar, /anvilr
