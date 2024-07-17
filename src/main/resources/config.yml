@@ -1,13 +1,20 @@
-# Prevents all items from being renamed in an Anvil
 NoRenameAll: false
-
-# Prevents all items from being used in an Anvil
 NoEntryAll: false
 
-# Prevents defined items from being used in an Anvil
-# Example - id:<MATERIAL_NAME>,name|<ITEM_NAME>
-NoEntry: id|SAND,name|Proximity Sensor
+NoEntry: "id|SAND,name|Proximity Sensor"
+NoRename: "id|RED_SAND"
 
-# Prevents defined items from being renamed in an Anvil
-# Example - id:<MATERIAL_NAME>,name|<ITEM_NAME>
-NoRename: id|RED_SAND
+messages:
+  prefix: "&8[&7MysticDominions-AnvilRestrict&8]"
+  noentry: "&cEntering that item in the Anvil is disabled."
+  norename: "&cRenaming that item is disabled."
+  all_entry_disabled: "&cThe Anvil is disabled."
+  all_rename_disabled: "&cRenaming items is disabled."
+  config_reloaded: "&fConfig reloaded!"
+  nopermission: "&cYou don't have permission to perform this command!"
+  help:
+    - "&cAnvilRestrict HELP:"
+    - ""
+    - "&6/anvilrestrict reload &f- Reload config"
+    - "&cAliases: &7[ar, anvilr]"
+  invalid_characters: "&cYou can only use English letters and numbers in the anvil."

@@ -1,8 +1,8 @@
 name: AnvilRestrict
 version: ${project.version}
 authors: [ Ugleh, poma123, Baterka ]
-main: me.poma123.anvilrestrict.AnvilRestrict
-api-version: 1.16
+main: com.thegeekedgamer.anvilrestrict.AnvilRestrict
+api-version: 1.17
 commands:
     anvilrestrict:
         usage: /<command>
